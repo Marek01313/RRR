@@ -1,0 +1,178 @@
+a{
+ text-decoration: none;
+ color: black;
+}
+
+
+
+#container
+{
+width: 100%
+
+ }
+
+#logo {
+    background-image: url("image/logo.jpg") ;
+   width: 100% ;
+   height: 500px ; 
+   font-size:32px ;
+    text-align: center  ;
+    padding-top: 20px  ;
+    
+    
+    
+}
+  #menu
+{
+  width: 100% ;
+    min-width: 60% ;
+  height: 100px;
+ background-color: yellow;
+  margin-top:0px;
+  
+
+
+}
+
+
+
+#navl {
+        
+       float: left ;
+	background-color : white ;
+        width: 28%  ;
+        min-height:670px ;
+        padding-top: 30px ;
+        padding-left:  1% ;
+        padding-right: 1% ;
+       text-align: left  ;
+     
+       
+}
+.n1
+{
+border-bottom: 5px yellow dotted ;
+font-size: 20px ;
+padding-top: 5px;
+}
+
+ .n2
+{
+font-size: 20px ;
+float: left ;
+width: 17% ;
+min-width: 17% ;
+padding-left: 8px ;
+padding-top: 30px ;
+padding-right: 5px ;
+border-left: 5px green dotted ;
+
+}
+
+
+.n1:hover 
+{
+    background-color: red ;
+     color:White ;
+     cursor: pointer ;
+     font-size: 25px ;
+    
+    
+}
+
+
+
+#article {
+	float: left ;
+         
+	background-color: #f0f8ff ; 
+        width: 55%  ;
+         min-height:600px ;
+        padding-top: 100px ;
+        padding-left:  5% ;
+        padding-right: 10% ;
+        text-align: left  ;
+       
+}
+
+   .n2:Hover
+         {
+     background-color: ffff66  ;
+     color: White ;
+      cursor: pointer ;
+      font-size: 25px ;
+      }
+
+
+
+#social {
+    
+   width: 100% ;
+ background-color: white ;
+  float:left   ;
+  margin-bottom: 100px ;
+  
+  
+}
+
+.fb
+{
+   width: 70px ;
+  float: left ;
+ height: 90px ;
+ margin-left: 22% ;
+ 
+}
+.yt
+{
+    width: 70px ;
+    height: 90px ;
+    float: left ;
+    margin-left: 20% ;
+     
+}
+.gmail
+{
+      width: 70px ;
+     height: 90px ;
+      float: left ;
+      margin-left: 20% ;
+}
+.fb:hover
+{
+   background-color:#4668b3 ;
+     cursor:pointer
+}
+.yt:hover
+{ 
+    background-color: #d94348 ;
+      cursor: pointer ;
+}
+ 
+.gmail:hover
+{
+    background-color:#ff0000 ;
+    cursor: pointer ;
+     
+}
+#footer {
+	clear: both;
+	width: 100%;
+        height: 30px ;
+	background-color: pink   ;
+         color: red;
+        
+        text-align: center ;
+
+} 
+ 
+
+.sticky
+{
+    width:100% ;
+    position: fixed ;
+    left:0 ;
+     top:0  ;
+    z-index:100 ;
+}
+
